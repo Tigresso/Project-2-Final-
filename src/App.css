@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+html, body {
+  height: 100%;
+  background-color: pink;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Top-container{
+  position: relative;
+
+  color: aqua; /*changes text color*/
+  background-color: gray;/*changes background of text color*/
+  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
+
+  height: 40px;
+  margin: 0 auto;
+  
+}
+.Title-container{
+  text-align: center;/*changes center of text*/
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Middle-container{
+  height: 10px;
+  background-color: gray;
+}
+.Leftside-container{
+  text-align: right;
+  background-color: gray;
+  height: 30px;
   }
+
+button1{
+  border: 10;
+  padding: 10;
+  height: 30px;
+  width: 70px;
+  background-color: gray;
+  margin: 10px;
+  
+  position:absolute; 
+  top:0; 
+  right:0; 
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button2{
+  border: 10;
+  padding: 10;
+  height: 30px;
+  width: 70px;
+  background-color: gray;
+  margin: 10px;
+  
+  position:absolute; 
+  top:0; 
+  right: 60px;
+
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: hotpink;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
