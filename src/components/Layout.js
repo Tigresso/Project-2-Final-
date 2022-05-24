@@ -14,10 +14,13 @@ const Layout = () => {
 
         <button2>
              <Link to="/contact">Contact</Link>
+
         </button2>   
           
-            
-        
+        <button4>
+             <Link to="/art">Art</Link>
+        </button4>   
+      
         </ul>
    
       </nav>

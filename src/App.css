@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   background-color: pink;
+  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
 }
 
 .Top-container{
@@ -8,20 +9,22 @@ html, body {
 
   color: aqua; /*changes text color*/
   background-color: gray;/*changes background of text color*/
-  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
+  
 
-  height: 40px;
-  margin: 0 auto;
+
+ 
+padding: 40px;
   
 }
 .Title-container{
   text-align: center;/*changes center of text*/
-  
+ 
 }
 
 .Middle-container{
-  height: 10px;
+  height: 50px;
   background-color: gray;
+  padding: 0px;
 }
 .Leftside-container{
   text-align: right;
@@ -30,33 +33,57 @@ html, body {
   }
 
 button1{
-  border: 10;
-  padding: 10;
-  height: 30px;
+
+  padding:2px;
+  height: 20px;
   width: 70px;
   background-color: gray;
+
   margin: 10px;
   
   position:absolute; 
   top:0; 
   right:0; 
 
+  
+
 }
 
 button2{
-  border: 10;
-  padding: 10;
-  height: 30px;
+
+  padding:2px;
+  height: 20px;
   width: 70px;
   background-color: gray;
   margin: 10px;
   
   position:absolute; 
   top:0; 
-  right: 60px;
+  right: 70px;
+
+ 
+  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
+
 
 }
 
+button4{
+
+  padding: 2px;
+  height: 20px;
+  width: 70px;
+  background-color: gray;
+  margin: 10px;
+  
+  position:absolute; 
+  top:0; 
+  right: 140px;
+
+ 
+  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
+
+
+}
 a:hover {
   color: hotpink;
 }
@@ -65,3 +92,136 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
+
+
+.MainDrawing{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainDrawing img {
+  width: 90%;
+}
+
+.contact-container1{
+  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 10px;
+   
+    padding: 0px;
+}
+.contact-container2{
+  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 30px;
+  padding: 10px;
+}
+
+.contact-container3 button{
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 10px;
+  height: 40px;
+  width: 70px;
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 10px;
+  border-radius: 9px;
+
+
+}
+
+.linktree{
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 10px;
+  height: 50px;
+  width: 90px;
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 100px;
+  border-radius: 9px;
+ 
+  position:absolute; 
+  top:450px; 
+  right:-50px;
+}
+
+
+.instagram{
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 10px;
+  height: 50px;
+  width: 90px;
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 100px;
+  border-radius: 9px;
+
+  position:absolute; 
+  top:450px; 
+  right:400px;
+}
+
+.youtube{
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 10px;
+  height: 50px;
+  width: 90px;
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 100px;
+  border-radius: 9px;
+
+  position:absolute; 
+  top:550px; 
+  right:400px;
+
+}
+
+.twitter{
+
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 10px;
+  height: 50px;
+  width: 90px;
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+  text-transform: uppercase;
+  margin-right: 100px;
+  border-radius: 9px;
+
+  position:absolute; 
+  top:550px; 
+  right:-50px;
+
+}
+
