@@ -233,3 +233,42 @@ a:active { text-decoration: none; }
 
 }
 
+
+.shop1{
+  gap: 10px;
+  background-color: lightgrey;
+  padding:  5px;
+  border-radius: 9px;
+
+}
+
+.shop2{
+
+
+  gap: 10px;
+  background-color: lightgrey;
+  padding:  5px;
+  border-radius: 9px;
+
+}
+
+
+.shop3{
+
+
+  gap: 10px;
+  background-color: lightgrey;
+  padding:  5px;
+  border-radius: 9px;
+
+}
+
+
+.shops-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+

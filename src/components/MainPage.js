@@ -17,10 +17,6 @@ function MainPage() {
                                 </div>
                                 
                                 <TopBar/>
-                                {/* <div class="Leftside-container">  
-                                
-                                 
-                                </div> */}
                             </header>  
 
                             
