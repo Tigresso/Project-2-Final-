@@ -24,6 +24,7 @@ const Contact= () => {
     >
         <h1 class="Middle-container">Contact Me</h1>
       
+      <div className="links-pages"> 
         <div className="linktree"> 
         <a
           className="linkt"
@@ -34,7 +35,7 @@ const Contact= () => {
           Check Out My linktree!
         </a>
         </div>
-        
+
         <div className="instagram"> 
         <a
           className="insta"
@@ -66,6 +67,8 @@ const Contact= () => {
         >
           Check Out My Twitter!
         </a>
+        </div>
+
         </div>
       <div className="contact-container1">
 

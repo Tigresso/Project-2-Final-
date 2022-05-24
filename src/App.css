@@ -13,18 +13,19 @@ html, body {
 
 
  
-padding: 40px;
+padding: 50px;
   
 }
 .Title-container{
   text-align: center;/*changes center of text*/
- 
+  padding: 0px;
 }
 
 .Middle-container{
-  height: 50px;
+  height: 10px;
   background-color: gray;
-  padding: 0px;
+  padding: 10px;
+
 }
 .Leftside-container{
   text-align: right;
@@ -90,9 +91,7 @@ a:hover {
 
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
-
 
 .MainDrawing{ 
   display: flex;
@@ -114,7 +113,7 @@ a:active { text-decoration: none; }
 
     height: 10px;
    
-    padding: 0px;
+    padding: 10px;
 }
 .contact-container2{
   
@@ -125,7 +124,17 @@ a:active { text-decoration: none; }
   flex-direction: column;
 
   height: 30px;
+  padding: 5px;
+}
+
+.contact-container3 > div{
   padding: 10px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact-container3 button{
@@ -146,67 +155,50 @@ a:active { text-decoration: none; }
 }
 
 .linktree{
-  font-family: inherit;
-  font-weight: bold;
-  border: 0;
-  padding: 10px;
-  height: 50px;
-  width: 90px;
-  cursor: pointer;
-  background-color: lightgray;
-  color: black;
-  text-transform: uppercase;
-  margin-right: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: lightgrey;
+  padding:  5px;
   border-radius: 9px;
+
  
-  position:absolute; 
+/*   
   top:450px; 
-  right:-50px;
+  right:-50px; */
 }
 
 
 .instagram{
-  font-family: inherit;
-  font-weight: bold;
-  border: 0;
-  padding: 10px;
-  height: 50px;
-  width: 90px;
-  cursor: pointer;
-  background-color: lightgray;
-  color: black;
-  text-transform: uppercase;
-  margin-right: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: lightgrey;
+  padding:  5px;
   border-radius: 9px;
-
-  position:absolute; 
-  top:450px; 
-  right:400px;
+  /* top:450px; 
+  right:400px; */
 }
 
 .youtube{
-  font-family: inherit;
-  font-weight: bold;
-  border: 0;
-  padding: 10px;
-  height: 50px;
-  width: 90px;
-  cursor: pointer;
-  background-color: lightgray;
-  color: black;
-  text-transform: uppercase;
-  margin-right: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: lightgrey;
+  padding:  5px;
   border-radius: 9px;
 
-  position:absolute; 
-  top:550px; 
-  right:400px;
+
+
+
+  /* top:550px; 
+  right:400px; */
 
 }
 
 .twitter{
 
-  font-family: inherit;
+  /* font-family: inherit;
   font-weight: bold;
   border: 0;
   padding: 10px;
@@ -216,12 +208,28 @@ a:active { text-decoration: none; }
   background-color: lightgray;
   color: black;
   text-transform: uppercase;
-  margin-right: 100px;
+  margin-right: 0px;
+  border-radius: 9px; */
+
+
+  /* top:550px; 
+ right:400px; */
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: lightgrey;
+  padding:  5px;
   border-radius: 9px;
 
-  position:absolute; 
-  top:550px; 
-  right:-50px;
+
+}
+
+.links-pages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 
 }
 

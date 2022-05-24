@@ -1,5 +1,10 @@
-const Shop = () => {
-    return <h1>Shop</h1>;
-  };
-  
+function Shop() {
+  return ( 
+    <header>
+ <h1>Shop</h1>;
+  </header>
+  );
+}
   export default Shop;
+
+ 
