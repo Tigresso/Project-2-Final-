@@ -71,7 +71,6 @@ const Contact= () => {
 
         </div>
       <div className="contact-container1">
-
         <input
           type="text"
           placeholder="Name"

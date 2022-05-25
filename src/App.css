@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   background-color: pink;
+
   font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
 }
 
@@ -10,7 +11,7 @@ html, body {
   color: aqua; /*changes text color*/
   background-color: gray;/*changes background of text color*/
   
-
+  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
 
  
 padding: 50px;
@@ -19,13 +20,14 @@ padding: 50px;
 .Title-container{
   text-align: center;/*changes center of text*/
   padding: 0px;
+  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
 }
 
 .Middle-container{
   height: 10px;
   background-color: gray;
   padding: 10px;
-
+  font-family:monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*font of text at top*/
 }
 .Leftside-container{
   text-align: right;
@@ -114,7 +116,9 @@ a:active { text-decoration: none; }
     height: 10px;
    
     padding: 10px;
+    
 }
+
 .contact-container2{
   
   text-align: center;
@@ -125,6 +129,7 @@ a:active { text-decoration: none; }
 
   height: 30px;
   padding: 5px;
+  
 }
 
 .contact-container3 > div{
@@ -271,4 +276,32 @@ a:active { text-decoration: none; }
   gap: 30px;
 }
 
+
+.row{
+background-color: gray;
+box-sizing: border-box;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.art1{
+  height: 40vmin;  
+  border-radius: 9px;
+}
+.art2{
+  height: 40vmin;  
+  border-radius: 9px;
+}
+.art3{
+  height: 40vmin;  
+  border-radius: 9px;
+}
+.art4{
+  height: 40vmin;  
+
+}
 
